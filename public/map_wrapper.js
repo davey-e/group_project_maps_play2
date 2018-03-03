@@ -13,11 +13,11 @@ MapWrapper.prototype.addMarker = function(coords){
     });
 }
 
-MapWrapper.prototype.addClickEvent = function(){
-    google.maps.event.addListener(this.googleMap, 'click', function(event){
-        const coords = {lat: event.latLng.lat(), lng: event.latLng.lng()};
-        this.addMarker(coords);
-        // console.log(event.latLng.lat());
-        // console.log(event.latLng.lng());
-    }.bind(this));
-}
+// MapWrapper.prototype.addClickEvent = function(){
+//     google.maps.event.addListener(this.googleMap, 'click', function(event){
+//         const coords = {lat: event.latLng.lat(), lng: event.latLng.lng()};
+//         this.addMarker(coords);
+//         // console.log(event.latLng.lat());
+//         // console.log(event.latLng.lng());
+//     }.bind(this));
+// }

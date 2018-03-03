@@ -9,7 +9,7 @@ const inialize = function(){
     
     mainMap.addMarker(markerCoords);
 
-    mainMap.addClickEvent();
+    // mainMap.addClickEvent();
 
 }
 
